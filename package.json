@@ -1,0 +1,28 @@
+{
+  "name": "@rulia/picacomic",
+  "title": "哔咔漫画",
+  "description": "Picacomic plugin for Rulia.",
+  "version": "0.2.8",
+  "author": "YRSB",
+  "tags": [
+    "picacomic",
+    "哔咔",
+    "manga",
+    "comic"
+  ],
+  "homepage": "https://github.com/YRSB/plugin.picacomic",
+  "userConfig": {
+    "token": {
+      "displayName": "Token",
+      "description": "哔咔登录 Token，必填，获取办法见仓库 README"
+    },
+    "baseUrl": {
+      "displayName": "API 地址",
+      "description": "哔咔 API 地址，默认 https://picaapi.picacomic.com，末尾不要加斜杠，分流失效时可更换"
+    },
+    "appChannel": {
+      "displayName": "分流",
+      "description": "请求头 app-channel，默认 3，可选 1、2、3"
+    }
+  }
+}
