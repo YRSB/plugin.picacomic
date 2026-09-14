@@ -32,7 +32,7 @@
 
 - https://github.com/RuliaReader/plugin.example
 - https://github.com/RuliaReader/package.types
-- https://github.com/venera-app/venera-configs（`picacg.js` 的接口与签名逻辑）
+- https://github.com/venera-app/venera-configs
 
 ## 开发
 
