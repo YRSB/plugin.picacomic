@@ -4,9 +4,9 @@
 
 ## 安装
 
-从本仓库右侧 Releases 下载最新 `picacomic.vX.Y.Z.zip` 安装。
+[Releases](https://github.com/YRSB/plugin.picacomic/releases)
 
-装好后在 Rulia 插件设置里填写 Token 后使用（获取办法见下方）。
+装好后在 Rulia 插件设置里填写 Token 后使用。
 
 ## 配置
 
@@ -18,7 +18,7 @@
 
 ## 获取 Token
 
-插件只用 Token 鉴权，不再使用账号密码登录。用浏览器手动获取一次，填到插件设置里：
+用浏览器手动获取一次，填到插件设置里：
 
 1. 用浏览器打开 `https://manhuabika.com`，选 Web 端访问入口。
 2. 若弹出线路测速，选一条能连通的线路进站。
@@ -33,15 +33,3 @@
 - https://github.com/RuliaReader/plugin.example
 - https://github.com/RuliaReader/package.types
 - https://github.com/venera-app/venera-configs
-
-## 开发
-
-修改后可用 Node 做语法检查：
-
-```powershell
-node --check index.js
-```
-
-## 免责
-
-本插件仅做接口对接学习使用，请遵守哔咔服务条款与当地法律法规。
